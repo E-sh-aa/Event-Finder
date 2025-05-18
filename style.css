@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #94b7d9;
+}
+
+.event-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #416c88;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.location-input, .event-planner {
+    margin: 20px 0;
+}
+
+#locationInput {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #6b7c8a;
+}
+
+#searchEventsBtn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchEventsBtn:hover {
+    background-color: #0056b3;
+}
+
+.event-list {
+    margin-top: 20px;
+}
+
+.event {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event h3 {
+    margin: 0;
+}
+
+.event p {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

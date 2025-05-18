@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event finder and planner</title>
+</head>
+<body>
+
+    <div class="event-container">
+        <h1>Event Finder and Planner</h1>
+
+  
+        <div class="location-input">
+            <input type="text" id="locationInput" placeholder="Enter your location"/>
+            <button id="searchEventsBtn">Find Events</button>
+        </div>
+
+     
+        <div class="event-list" id="eventList">
+           
+        </div>
+
+       
+        <div class="event-planner">
+            <h2>Plan Your Event</h2>
+            <form id="eventForm">
+                <input type="text" id="eventName" placeholder="Event Name" required>
+                <input type="datetime-local" id="eventDate" required>
+                <button type="submit">Save Event</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
